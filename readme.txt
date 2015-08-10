@@ -20,3 +20,5 @@ git config --global user.email "someone@someplace.com"
 4. Use command "git init" to initialize the repostory;
 5. Drag your files to your repostory, use command "git add" add file to repostory;
 6. Use command "git commit -m "xxx"" to apply the action.
+
+this is for now.
