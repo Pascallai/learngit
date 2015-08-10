@@ -22,3 +22,16 @@ git config --global user.email "someone@someplace.com"
 6. Use command "git commit -m "xxx"" to apply the action.
 
 this is for now.
+
+See log files:
+$ git log
+$ git log --pretty=oneline
+
+See all logs:
+$ git reflog
+
+Rollback to the a version:
+$ git reset --hard HEAD^
+$ git reset --hard HEAD~100
+$ git reset --hard commit_Id
+
