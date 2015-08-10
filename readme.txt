@@ -7,3 +7,16 @@ This is what i want to do with github:
 
 Plans of using github:
 1. I will add some icons, try to make some changes and repost to repostory;
+
+Methodes of using github:
+
+Before all:
+git config --global user.name "someone"
+git config --global user.email "someone@someplace.com"
+
+1. Download github install files;
+2. Install it and get git bash running;
+3. Use command "mkdir foldername" to creat git repostory;
+4. Use command "git init" to initialize the repostory;
+5. Drag your files to your repostory, use command "git add" add file to repostory;
+6. Use command "git commit -m "xxx"" to apply the action.
