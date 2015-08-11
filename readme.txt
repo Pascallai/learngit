@@ -23,6 +23,15 @@ git config --global user.email "someone@someplace.com"
 
 this is for now.
 
+Add file to stage:
+$ git add filename
+
+Pull stage file to HEAD:
+$ git commit -m "xxx"
+
+Delete file:
+$ git rm filename
+
 See log files:
 $ git log
 $ git log --pretty=oneline
@@ -34,4 +43,9 @@ Rollback to the a version:
 $ git reset --hard HEAD^
 $ git reset --hard HEAD~100
 $ git reset --hard commit_Id
+
+How github works:
+1. C:\Git\learngit is workplace;
+2. When using "git add filename", your file will be in stage pool;
+3. When using "git commit -m "xxx"", all added files will be submitted to HEAD.
 
